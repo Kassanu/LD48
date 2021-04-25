@@ -1,0 +1,33 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Patch is out, you logging in tonight?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 10,
+					"stressDelta": -5
+				},
+				{
+					"text": "No",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

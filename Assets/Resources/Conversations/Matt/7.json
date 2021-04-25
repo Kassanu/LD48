@@ -1,0 +1,33 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "L street tonight, you in?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 1,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 10
+				},
+				{
+					"text": "Nah",
+					"conversationId": 1,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": []
+		}
+	]
+}

@@ -1,0 +1,107 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Are you coming to dinner?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 10
+				},
+				{
+					"text": "No",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -5,
+					"stressDelta": 10
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": false,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "It's not nice to ignore people."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Why not?"
+				}
+			],
+			"responses": [
+				{
+					"text": "I don't want to",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 10
+				},
+				{
+					"text": "Have other plans",
+					"conversationId": 2,
+					"endConversation": false,
+					"opinionDelta": -5,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": false,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "What do you mean?"
+				},
+				{
+					"isPlayer": false,
+					"text": "You knew about this for weeks."
+				}
+			],
+			"responses": [
+				{
+					"text": "Whatever",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "Whatever"
+				}
+			]
+		}
+	]
+}

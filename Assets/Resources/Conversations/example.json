@@ -1,0 +1,65 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Test Message"
+				}
+			],
+			"responses": [
+				{
+					"text": "Test Response 0",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				},
+				{
+					"text": "Test Response asfasfaf",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "Test Timeout Message"
+				}
+			]
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "This is convo 2"
+				}
+			],
+			"responses": [
+				{
+					"text": "Test Response 1",
+					"conversationId": 0,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "Test Timeout Message 2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey bro. Got a new thing"
+				},
+				{
+					"isPlayer": false,
+					"text": "Come check it out"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 1,
+					"endConversation": true,
+					"opinionDelta": 10,
+					"stressDelta": 5
+				},
+				{
+					"text": "Nah",
+					"conversationId": 1,
+					"endConversation": true,
+					"opinionDelta": -5,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

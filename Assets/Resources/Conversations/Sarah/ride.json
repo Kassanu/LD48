@@ -1,0 +1,101 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey, can you drive me somewhere?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Sure",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 5
+				},
+				{
+					"text": "I can't",
+					"conversationId": 2,
+					"endConversation": false,
+					"opinionDelta": -5,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": false,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey! You there?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Sorry, Sure",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 10
+				},
+				{
+					"text": "I can't",
+					"conversationId": 2,
+					"endConversation": false,
+					"opinionDelta": -5,
+					"stressDelta": 10
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "Fine"
+				}
+			]
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Please? I really need a ride."
+				}
+			],
+			"responses": [
+				{
+					"text": "Fine, where are you?",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 15
+				},
+				{
+					"text": "Ask someone else",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 15
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "Fine"
+				}
+			]
+		}
+	]
+}

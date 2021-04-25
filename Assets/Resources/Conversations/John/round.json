@@ -1,0 +1,60 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey you around? Wanna hop into a round?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 1,
+					"opinionDelta": 10,
+					"stressDelta": -5
+				},
+				{
+					"text": "No",
+					"conversationId": 2,
+					"endConversation": false,
+					"opinionDelta": -10,
+					"stressDelta": 1
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Nice"
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Ok, some other time."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

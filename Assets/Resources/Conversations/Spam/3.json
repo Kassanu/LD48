@@ -1,0 +1,26 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "This is the electric company."
+				},
+				{
+					"isPlayer": false,
+					"text": "Your power will get disconnected in 30 mins due to a pending balance on your account."
+				},
+				{
+					"isPlayer": false,
+					"text": "Please call (555) 555-5555 to connect with a service member to pay."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

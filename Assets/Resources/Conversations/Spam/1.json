@@ -1,0 +1,30 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "We've recently noticed your car extended warrant was going to expire."
+				},
+				{
+					"isPlayer": false,
+					"text": "We wanted to send you one final message before your warrant expires and your coverage is voided."
+				},
+				{
+					"isPlayer": false,
+					"text": "This would make you financially responsible for all service repairs."
+				},
+				{
+					"isPlayer": false,
+					"text": "Please call (555) 555-5555 for immediate service."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

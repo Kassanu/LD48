@@ -1,0 +1,26 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Yo what's been up with you lately. You've been distant."
+				}
+			],
+			"responses": [
+				{
+					"text": "Sorry",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 25,
+					"stressDelta": 20
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": false,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": []
+		}
+	]
+}

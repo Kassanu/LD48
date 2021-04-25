@@ -1,0 +1,72 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "What are you getting mom for her birthday?"
+				}
+			],
+			"responses": [
+				{
+					"text": "A movie",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 5
+				},
+				{
+					"text": "Not sure",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "You better not forget"
+				}
+			]
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Do you need help picking something out?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 10,
+					"stressDelta": 5
+				},
+				{
+					"text": "I'll figure it out",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 0,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -10,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "You better not forget"
+				}
+			]
+		}
+	]
+}

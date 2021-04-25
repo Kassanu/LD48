@@ -1,0 +1,46 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey, we need to talk."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": false,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "You haven't been answering. I'm worried about you."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 2,
+			"timeoutEndConversation": false,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Please answer, I'm here for you."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

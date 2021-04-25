@@ -1,0 +1,47 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Everything ok?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 10,
+					"stressDelta": 10
+				},
+				{
+					"text": "No",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 5,
+					"stressDelta": 10
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Let me know if you need anything."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Yo I need some help, you got a min?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 5,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": []
+		}
+	]
+}

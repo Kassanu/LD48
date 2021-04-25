@@ -1,0 +1,62 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Are you coming out after work tonight?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 10,
+					"stressDelta": 10
+				},
+				{
+					"text": "No",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": -5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Aw come on, why not?"
+				}
+			],
+			"responses": [
+				{
+					"text": "I don't want to",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 0,
+					"stressDelta": 5
+				},
+				{
+					"text": "I have something else",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 0,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

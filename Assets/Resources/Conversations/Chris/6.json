@@ -1,0 +1,33 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Can you come to conference room 4? Need to show you something."
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 5
+				},
+				{
+					"text": "No",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -5,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": []
+		}
+	]
+}

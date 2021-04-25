@@ -1,0 +1,22 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "There has been a charge on your account."
+				},
+				{
+					"isPlayer": false,
+					"text": "Please call (555) 555-5555 to connect with a customer care representative."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

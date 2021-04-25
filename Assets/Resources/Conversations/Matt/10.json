@@ -1,0 +1,76 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Yo you busy?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": -5,
+					"stressDelta": 0
+				},
+				{
+					"text": "Nah",
+					"conversationId": 2,
+					"endConversation": false,
+					"opinionDelta": 2,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -5,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Ok, another time bro."
+				}
+			],
+			"responses": [],
+			"timeout": 1,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "I'm gonna go grab some food wanna come?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 5
+				},
+				{
+					"text": "Actually, I'm busy.",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -15,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

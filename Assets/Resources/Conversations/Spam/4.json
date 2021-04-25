@@ -1,0 +1,30 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hello this call is from law enforcement unit of federal reserve systems."
+				},
+				{
+					"isPlayer": false,
+					"text": "We have found suspicious activity from your banking account."
+				},
+				{
+					"isPlayer": false,
+					"text": "Due to which there is a legal case being filed under your name."
+				},
+				{
+					"isPlayer": false,
+					"text": "Please call (555) 555-5555 to connect with a us."
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

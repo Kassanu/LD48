@@ -1,0 +1,37 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Can you believe this project?"
+				},
+				{
+					"isPlayer": false,
+					"text": "Sometimes I feel like product has no idea what their doing."
+				}
+			],
+			"responses": [
+				{
+					"text": "I know right?",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 5,
+					"stressDelta": 0
+				},
+				{
+					"text": "It's not that bad.",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

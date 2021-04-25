@@ -1,0 +1,37 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey are you going to try to get tickets for the convention?"
+				},
+				{
+					"isPlayer": false,
+					"text": "We can meet up."
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 10,
+					"stressDelta": -5
+				},
+				{
+					"text": "No",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -10,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		}
+	]
+}

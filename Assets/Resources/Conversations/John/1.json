@@ -1,0 +1,151 @@
+{
+	"conversations": [
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Hey"
+				}
+			],
+			"responses": [
+				{
+					"text": "Hey",
+					"conversationId": 1,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 1,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Did you get that new game?"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah",
+					"conversationId": 2,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				},
+				{
+					"text": "No",
+					"conversationId": 3,
+					"endConversation": false,
+					"opinionDelta": 0,
+					"stressDelta": 0
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": [
+				{
+					"isPlayer": false,
+					"text": "You there?"
+				}
+			]
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Nice!"
+				},
+				{
+					"isPlayer": false,
+					"text": "How are you liking it? We should play sometime."
+				}
+			],
+			"responses": [
+				{
+					"text": "It's fun, yeah let me know when",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 3,
+					"stressDelta": -5
+				},
+				{
+					"text": "It's fun",
+					"conversationId": 4,
+					"endConversation": false,
+					"opinionDelta": 1,
+					"stressDelta": 0
+				},
+				{
+					"text": "It's not fun",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 0,
+					"stressDelta": 5
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "It's really good"
+				},
+				{
+					"isPlayer": false,
+					"text": "You should check it out, we can play together"
+				}
+			],
+			"responses": [],
+			"timeout": 0,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": 0,
+			"timeoutMessages": []
+		},
+		{
+			"messages": [
+				{
+					"isPlayer": false,
+					"text": "Yeah, I'm loving it"
+				},
+				{
+					"isPlayer": false,
+					"text": "We should play together sometime"
+				}
+			],
+			"responses": [
+				{
+					"text": "Yeah, let me know when",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": 1,
+					"stressDelta": -2
+				},
+				{
+					"text": "No",
+					"conversationId": 0,
+					"endConversation": true,
+					"opinionDelta": -3,
+					"stressDelta": 10
+				}
+			],
+			"timeout": 10,
+			"timeoutConversationId": 0,
+			"timeoutEndConversation": true,
+			"timeoutOpinionDelta": -1,
+			"timeoutMessages": []
+		}
+	]
+}
