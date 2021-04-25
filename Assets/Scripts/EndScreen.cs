@@ -8,7 +8,7 @@ public class EndScreen : MonoBehaviour
     public GameObject text;
     public GameObject letter;
 
-    public string[] endings = new string[] {
+    public string[] endingsText = new string[] {
         "Your true friends will always reach out.",
         "The most important thing is taking care of yourself.",
         "Balancing your relationship is hard but rewarding.",
@@ -28,7 +28,7 @@ public class EndScreen : MonoBehaviour
 
     public void Start() {
         var player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        this.text.GetComponent<TMPro.TextMeshProUGUI>().text = this.endings[player.endingNumber()];
+        this.text.GetComponent<TMPro.TextMeshProUGUI>().text = this.endingsText[player.endingNumber()];
         this.letter.GetComponent<TMPro.TextMeshProUGUI>().text = this.endingsLetter[player.endingNumber()];
     }
 
